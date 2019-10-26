@@ -1,0 +1,19 @@
+{
+  "name": "automatedboilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate code for quick setup of automation projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e3testing/AutomatedBoilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/e3testing/AutomatedBoilerplate/issues"
+  },
+  "homepage": "https://github.com/e3testing/AutomatedBoilerplate#readme"
+}
