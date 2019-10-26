@@ -1,5 +1,5 @@
 # AutomatedBoilerplate
-Boilerplate code and tips to help setup a new automation project.
+Boilerplate code and tips to help setup automation projects.
 
 
 # Getting started with Cypress
