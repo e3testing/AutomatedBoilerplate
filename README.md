@@ -8,3 +8,7 @@ npm install
 npm run cy:verify
 npm run cy:open
 ```
+
+# Getting started with Newman (Postman)
+
+TODO

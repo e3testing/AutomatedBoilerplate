@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/e3testing/AutomatedBoilerplate#readme",
   "dependencies": {
-    "cypress": "^3.5.0"
+    "cypress": "^3.5.0",
+    "newman": "^4.5.5"
   }
 }
