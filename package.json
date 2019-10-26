@@ -4,7 +4,10 @@
   "description": "Boilerplate code for quick setup of automation projects.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:verify": "./node_modules/.bin/cypress verify",
+    "cy:open": "./node_modules/.bin/cypress open",
+    "cy:run": "./node_modules/.bin/cypress run"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/e3testing/AutomatedBoilerplate/issues"
   },
-  "homepage": "https://github.com/e3testing/AutomatedBoilerplate#readme"
+  "homepage": "https://github.com/e3testing/AutomatedBoilerplate#readme",
+  "dependencies": {
+    "cypress": "^3.5.0"
+  }
 }
