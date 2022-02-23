@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cy:verify": "./node_modules/.bin/cypress verify",
-    "cy:open": "./node_modules/.bin/cypress open",
-    "cy:run": "./node_modules/.bin/cypress run"
+    "cy:verify": "cypress verify",
+    "cy:open": "cypress open"
   },
   "repository": {
     "type": "git",
@@ -20,7 +19,9 @@
   },
   "homepage": "https://github.com/e3testing/AutomatedBoilerplate#readme",
   "dependencies": {
-    "cypress": "^3.5.0",
-    "newman": "^4.5.5"
+    "newman": "^5.3.1"
+  },
+  "devDependencies": {
+    "cypress": "^9.5.0"
   }
 }
