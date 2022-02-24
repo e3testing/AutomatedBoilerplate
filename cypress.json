@@ -1,11 +1,14 @@
 {
-    "viewportWidth": 1000,
-    "viewportHeight": 750,
-    "reporter": "junit",
-    "chromeWebSecurity": false,
-    "videoUploadOnPasses": false,
-    "reporterOptions": {
-      "mochaFile": "test-output-[hash].xml",
-      "toConsole": true,
-      "attachments": true  
+  "viewportWidth": 1000,
+  "viewportHeight": 750,
+  "reporter": "junit",
+  "chromeWebSecurity": false,
+  "videoUploadOnPasses": false,
+  "baseUrl": "https://greatstate.co/",
+  "reporterOptions": {
+    "mochaFile": "test-output-[hash].xml",
+    "toConsole": true,
+    "attachments": true
+  },
+  "pageLoadTimeout": 90000
 }
