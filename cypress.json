@@ -1,1 +1,11 @@
-{}
+{
+    "viewportWidth": 1000,
+    "viewportHeight": 750,
+    "reporter": "junit",
+    "chromeWebSecurity": false,
+    "videoUploadOnPasses": false,
+    "reporterOptions": {
+      "mochaFile": "test-output-[hash].xml",
+      "toConsole": true,
+      "attachments": true  
+}
